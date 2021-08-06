@@ -1,4 +1,5 @@
 // LICENSE
+
 let badge = "";
 function renderLicenseBadge(license) {
 
@@ -34,7 +35,12 @@ function renderLicenseLink(license) {
     //     },
 }
 
-function generateMarkdown {(
+function generateMarkdown ({
 
-)
-}
+
+})
+
+// .then((answers) => {
+//     // See user feedback
+//     fs.writeFile("index.html");
+//   });

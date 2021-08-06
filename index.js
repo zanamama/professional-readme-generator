@@ -48,7 +48,11 @@ inquirer
 
   .then((answers) => {
     // Use user feedback for... whatever!!
-    fs.writeFile("index.html");
+    console.log(answers);
+
+    fs.writeFile("autoIndex.html", JSON.stringify(answers), () => {});
   });
-const HTMLTemplate = { name, title, project, bio, gitHub, linkedin, age };
-function createFile(userInfo, fileName) {}
+// const HTMLTemplate = { name, title, project, bio, gitHub, linkedin, age };
+function createFile(userInfo, fileName) {
+  fs.writeFile(fileName, JSON.stringify(answers), () => {});
+}
