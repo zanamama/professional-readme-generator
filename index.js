@@ -30,6 +30,11 @@ inquirer.prompt([
   },
   {
     type: "input",
+    name: "motivation",
+    message: "What was your motivation?",
+  },
+  {
+    type: "input",
     name: "problemSolve",
     message: "What problem does your project solve?",
   },
@@ -38,4 +43,11 @@ inquirer.prompt([
     name: "learning",
     message: "What did you learn?",
   },
-]);
+])
+
+.then((answers) => {
+  // Use user feedback for... whatever!!
+  fs.writeFile("index.html");
+}
+const HTMLTemplate = ({userName, location,bio,gitHub,linkedin, age});
+function createFile(userInfo, fileName);
