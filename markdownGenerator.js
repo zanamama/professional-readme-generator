@@ -10,27 +10,28 @@ function renderLicenseLink(license) {
     const fs = require("fs");
     
     inquirer
-      .prompt([
-        {
-          type: "input",
-          name: "license",
-          message: "What is your name?",
-        },
-        {
-          type: "input",
-          name: "projectName",
-          message: "What is your project title?",
-        },
-        {
-          type: "input",
-          name: "description",
-          message: "Describe your project:",
-        },
-        {
-          type: "input",
-          name: "unique",
-          message: "What makes your project unique and stand out?",
-        },
+    // CHANGE BELOW - Find file name to do Template literal `$[]`
+    //  .prompt([
+    //     {
+    //       type: "input",
+    //       name: "license",
+    //       message: "What is your name?",
+    //     },
+    //     {
+    //       type: "input",
+    //       name: "projectName",
+    //       message: "What is your project title?",
+    //     },
+    //     {
+    //       type: "input",
+    //       name: "description",
+    //       message: "Describe your project:",
+    //     },
+    //     {
+    //       type: "input",
+    //       name: "unique",
+    //       message: "What makes your project unique and stand out?",
+    //     },
 }
 
 function generateMarkdown {(
