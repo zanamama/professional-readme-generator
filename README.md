@@ -6,7 +6,7 @@ When creating an open source project on GitHub, it’s important to have a high-
 
 You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
 
-My task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
+My task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). I reviewed the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
 
 The application will be invoked by using the following command:
 
@@ -14,7 +14,7 @@ The application will be invoked by using the following command:
 node index.js
 ```
 
-Because this application won’t be deployed, I’ll also provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.
+Because this application won’t be deployed, I’ll also provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. I will submit a link to the video _and_ add it to the README of my project soon.
 
 
 ## User Story
@@ -55,11 +55,11 @@ Here are some guidelines to help you get started:
 
 * Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
 
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
+* Include any other screenshots I deem necessary to help someone who has never been introduced to my application understand the purpose and function of it. This is how we will communicate to potential employers or other developers in the future what I built and why, and to show how it works.
 
 ## Grading Requirements
 
-This homework is graded based on the following criteria: 
+This assignment is graded based on the following criteria: 
 
 ### Deliverables: 20%
 
